@@ -1,4 +1,4 @@
-package cn.itheima.controller;
+﻿package cn.itheima.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -23,7 +23,6 @@ public class HelloController {
 		
 		// 3.设置响应的视图
 		// setViewName方法：设置响应的视图
-		// 参数：视图名称（jsp页面物理路径）
 		mav.setViewName("/WEB-INF/jsp/hello.jsp");
 		return mav;
 	}
